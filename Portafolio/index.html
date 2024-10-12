@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--Navegador-->
+    <header>
+        <nav class="browser" id="browser">
+            <ul>
+                <li><a href="#about-Me">Sobre Mi</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Seccion-->
+    <section>
+        <!--Bienvenida-->
+        <section class="welcome" id="welcome">
+            <h1>BIENVENIDO</h1>
+            <p>Hola, ¿qué tal estás? Soy Sergio Galvez y te doy la bienvenida a mi portafolio profesional. 
+                Aquí te hablaré un poco sobre mí, mis habilidades, los proyectos en los que he participado, y 
+                al final encontrarás mi información de contacto. Espero que cada sección te resulte interesante. 
+                Por último, te deseo un gran día.</p>
+        </section>
+
+        <hr>
+        <section class="about-Me" id="about-Me">
+            <h2>Sobre Mi</h2>
+            <img src="/imagenes/Foto1-Circulo.png" alt="" width="225px" height="225px" class="img-1">
+            <p class="parrafo-1"> Soy Sergio Galvez, un joven de 17 años, el cual se inetereso en la programación gracias a la fundación cognitus,
+                la cual me incorporo a este mundo, me gusta programar por la dificultad que muestra 
+                muchas veces y las grandes posibilidades que existe en este mundo de la tegnologia. <br> Amante de los animales, especialmente 
+                los gatos, me gusta leer historias <br> de fantasia, el sonido de la lluvia me ayuda a lejarme, fanatico de los juegos; mayormente 
+                juegos de historia. Me gusta aprender, siempre he tenido el pesamiento que cualquier cosa que aprendas, tarde o temprano
+                la utilizaras. <br> Mis aspiraciones en este mundo de la tegnologiaes crea una empresa de desarrollo de software, en la cual
+                creemos programas de aprendizaje, tanto para adultos como para niños. Desde pequeño he creido que el aprendizaje debe ser
+                divertido y lo debemos de disfrutar. Y esto fue un poco sobre mi.
+            </p>
+        </section>
+
+        <hr>
+        <section class="skills" id="skills">
+            <h3>Habilidades</h3>
+        <br>
+       <div class="tecnig-skills">
+                <label>Conocimientos tecnicos en:</label>
+                <br><br>
+            <label for="">Html</label> 
+                <br>
+            <input type="range" class="html" min="0" max="100" value="60"> <label for="">60%</label>
+                <br><br>
+            <label for="">Css</label>
+                <br>
+            <input type="range" class="css" min="0" max="100" value="50"> <label for="">50%</label>
+                <br><br>
+            <label for="">JavaScript</label>
+                <br>
+            <input type="range" class="javascript" min="0" max="100" value="40"> <label for="">40%</label>
+                <br><br>
+            <label for="">C++</label>
+                <br>
+            <input type="range" class="c-plus-plus" min="0" max="100" value="20"> <label for="">20%</label>
+        </div>
+            <img src="/imagenes/Foto1-Circulo.png" alt="" class="img-2"  width="225px" height="225px">
+        </section>
+
+        <hr>
+        <section class="proyects" id="proyects">
+            <h3>Proyectos</h3>
+            <br>
+            <div class="proyect-1">
+                <label><n> Proyecto 1</label>
+                <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia. At, quos nemo laborum iusto
+                        perspiciatis in! Totam, perferendis? Sed, sit optio! Laborum eaque amet accusamus deserunt aut exercitationem 
+                        velit.</p>
+                        <br>
+                            <button type="button" >Saber mas</button>
+            </div>
+            <div class="proyect-2">
+                <label><n> Proyecto 2</label>
+                <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia. At, quos nemo laborum iusto
+                        perspiciatis in! Totam, perferendis? Sed, sit optio! Laborum eaque amet accusamus deserunt aut exercitationem 
+                        velit.</p>
+                        <br>
+                            <button type="button" dir="rtl">Saber mas</button>
+            </div>
+          <div class="proyect-3">
+                <label> Proyecto 3 </label>
+                <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia. At, quos nemo laborum iusto
+                        perspiciatis in! Totam, perferendis? Sed, sit optio! Laborum eaque amet accusamus deserunt aut exercitationem 
+                        velit.</p>
+                        <br>
+                            <button type="button" dir="rtl">Saber mas</button>
+            </div>
+            <div>
+                <label> Proyecto 4 </label> 
+                <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia. At, quos nemo laborum iusto
+                        perspiciatis in! Totam, perferendis? Sed, sit optio! Laborum eaque amet accusamus deserunt aut exercitationem 
+                        velit.</p>
+                        <br>
+                            <button type="button" dir="rtl">Saber mas</button>
+            </div>
+        </section>
+        
+    </section>
+
+        <form action="">
+            <section class="contact" id="contact">
+                <legend><b>Contactame</b></legend>
+                <br>
+                <label for="" class="label-form">Nombre</label>
+                <br>
+                <input type="text"  placeholder="Ingrese su nombre completo">
+                <br>
+                <label for="" class="label-form">Correo Electronico</label>
+                <br>
+                <input type="email" placeholder="example@gmail.com">
+                <br>
+                <label for="" class="label-form">Asunto</label>
+                <br>
+                <input type="text" placeholder="Asunto del contacto">
+                 <br>
+                 <button type="submit">Enviar</button>
+            </section>
+        </form>
+    <footer></footer>
+
+
+
+</body>
+</html>
